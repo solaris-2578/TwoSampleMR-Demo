@@ -1,1 +1,5 @@
-# TwoSampleMR-Demo
+# Two-Sample Mendelian Randomization with Summary Data
+
+This project reviews the two-sample Mendelian randomization (MR) methods with GWAS summary data to estimate causal effects in the presence of unmeasured confounding. In an applied experiment, the random-effect inverse-variance weighted (IVW) method is employed to estimate the effect of body mass index on coronary heart disease, which is 0.45 with a standard error of 0.06. Compared with other MR methods, IVW provides the causal estimate with the lowest uncertainty. The sensitivity analysis indicates that no single SNP was dramatically driving the overall causal estimate in the leave-one-out analysis, but that heterogeneity among SNPs exists. 
+
+The code demo is under `./R`, and a more detailed report is available in `./report` with slides in `./presentation`.
